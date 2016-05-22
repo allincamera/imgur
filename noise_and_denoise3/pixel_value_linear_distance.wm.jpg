@@ -1,0 +1,197 @@
+<?xml version="1.0"?>
+<root xmlns="http://www.vips.ecs.soton.ac.uk/nip/8.2.0">
+  <Workspace window_x="0" window_y="45" window_width="680" window_height="500" view="WORKSPACE_MODE_REGULAR" scale="1" offset="0" locked="false" lpane_position="100" lpane_open="false" rpane_position="400" rpane_open="false" local_defs="// private definitions for this tab&#10;" name="tab1" caption="Default empty tab" filename="$HOME/wa/inbox/pixel_value_linear_distance.wm.jpg">
+    <Column x="0" y="0" open="true" selected="true" sform="false" next="3" name="A">
+      <Subcolumn vislevel="3">
+        <Row popup="false" name="A1">
+          <Rhs vislevel="1" flags="1">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="0"/>
+            <iText formula="Image_file &quot;$HOME/wa/inbox/pixel_value_linear_distance.jpg&quot;"/>
+          </Rhs>
+        </Row>
+        <Row popup="false" name="A2">
+          <Rhs vislevel="3" flags="7">
+            <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+            <Subcolumn vislevel="1">
+              <Row name="x">
+                <Rhs vislevel="0" flags="4">
+                  <iText/>
+                </Rhs>
+              </Row>
+              <Row name="super">
+                <Rhs vislevel="0" flags="4">
+                  <iImage image_left="0" image_top="0" image_mag="0" show_status="false" show_paintbox="false" show_convert="false" show_rulers="false" scale="0" offset="0" falsecolour="false" type="true"/>
+                  <Subcolumn vislevel="0"/>
+                  <iText/>
+                </Rhs>
+              </Row>
+              <Row name="text">
+                <Rhs vislevel="1" flags="1">
+                  <String caption="Text to draw" value="allincamera.github.io"/>
+                  <Subcolumn vislevel="0"/>
+                  <iText/>
+                </Rhs>
+              </Row>
+              <Row name="font">
+                <Rhs vislevel="3" flags="6">
+                  <Subcolumn vislevel="2">
+                    <Row name="super">
+                      <Rhs vislevel="0" flags="4">
+                        <iText/>
+                      </Rhs>
+                    </Row>
+                    <Row name="family">
+                      <Rhs vislevel="1" flags="1">
+                        <Option/>
+                        <Subcolumn vislevel="0"/>
+                        <iText/>
+                      </Rhs>
+                    </Row>
+                    <Row name="style">
+                      <Rhs vislevel="1" flags="1">
+                        <Option/>
+                        <Subcolumn vislevel="0"/>
+                        <iText/>
+                      </Rhs>
+                    </Row>
+                    <Row name="weight">
+                      <Rhs vislevel="1" flags="1">
+                        <Slider/>
+                        <Subcolumn vislevel="0"/>
+                        <iText/>
+                      </Rhs>
+                    </Row>
+                    <Row name="size">
+                      <Rhs vislevel="1" flags="1">
+                        <Slider caption="Point size" from="1" to="100" value="24"/>
+                        <Subcolumn vislevel="0"/>
+                        <iText/>
+                      </Rhs>
+                    </Row>
+                    <Row name="stretch">
+                      <Rhs vislevel="1" flags="1">
+                        <Option/>
+                        <Subcolumn vislevel="0"/>
+                        <iText/>
+                      </Rhs>
+                    </Row>
+                  </Subcolumn>
+                  <iText/>
+                </Rhs>
+              </Row>
+              <Row name="geometry">
+                <Rhs vislevel="3" flags="6">
+                  <Subcolumn vislevel="2">
+                    <Row name="super">
+                      <Rhs vislevel="0" flags="4">
+                        <iText/>
+                      </Rhs>
+                    </Row>
+                    <Row name="shearX">
+                      <Rhs vislevel="1" flags="1">
+                        <Expression caption="shear X (degrees)"/>
+                        <Subcolumn vislevel="0"/>
+                        <iText/>
+                      </Rhs>
+                    </Row>
+                    <Row name="shearY">
+                      <Rhs vislevel="1" flags="1">
+                        <Expression caption="shear Y (degrees)"/>
+                        <Subcolumn vislevel="0"/>
+                        <iText/>
+                      </Rhs>
+                    </Row>
+                    <Row name="hoffset">
+                      <Rhs vislevel="1" flags="1">
+                        <Expression caption="Horizontal offset"/>
+                        <Subcolumn vislevel="0">
+                          <Row name="caption">
+                            <Rhs vislevel="0" flags="4">
+                              <iText/>
+                            </Rhs>
+                          </Row>
+                          <Row name="expr">
+                            <Rhs vislevel="0" flags="4">
+                              <iText formula="200"/>
+                            </Rhs>
+                          </Row>
+                          <Row name="super">
+                            <Rhs vislevel="1" flags="4">
+                              <Subcolumn vislevel="0"/>
+                              <iText/>
+                            </Rhs>
+                          </Row>
+                        </Subcolumn>
+                        <iText/>
+                      </Rhs>
+                    </Row>
+                    <Row name="voffset">
+                      <Rhs vislevel="1" flags="1">
+                        <Expression caption="Vertical offset"/>
+                        <Subcolumn vislevel="0">
+                          <Row name="caption">
+                            <Rhs vislevel="0" flags="4">
+                              <iText/>
+                            </Rhs>
+                          </Row>
+                          <Row name="expr">
+                            <Rhs vislevel="0" flags="4">
+                              <iText formula="60"/>
+                            </Rhs>
+                          </Row>
+                          <Row name="super">
+                            <Rhs vislevel="1" flags="4">
+                              <Subcolumn vislevel="0"/>
+                              <iText/>
+                            </Rhs>
+                          </Row>
+                        </Subcolumn>
+                        <iText/>
+                      </Rhs>
+                    </Row>
+                  </Subcolumn>
+                  <iText/>
+                </Rhs>
+              </Row>
+              <Row name="gravity">
+                <Rhs vislevel="1" flags="1">
+                  <Option caption="Gravity" labelsn="12" labels0="None" labels1="Center" labels2="East" labels3="Forget" labels4="NorthEast" labels5="North" labels6="NorthWest" labels7="SouthEast" labels8="South" labels9="SouthWest" labels10="West" labels11="Static" value="6"/>
+                  <Subcolumn vislevel="0"/>
+                  <iText/>
+                </Rhs>
+              </Row>
+              <Row name="foreground">
+                <Rhs vislevel="1" flags="1">
+                  <Colour/>
+                  <Subcolumn vislevel="0"/>
+                  <iText/>
+                </Rhs>
+              </Row>
+              <Row name="undercol">
+                <Rhs vislevel="1" flags="1">
+                  <Colour/>
+                  <Subcolumn vislevel="0"/>
+                  <iText/>
+                </Rhs>
+              </Row>
+              <Row name="antialias">
+                <Rhs vislevel="1" flags="1">
+                  <Toggle/>
+                  <Subcolumn vislevel="0"/>
+                  <iText/>
+                </Rhs>
+              </Row>
+              <Row name="command">
+                <Rhs vislevel="1" flags="4">
+                  <iText/>
+                </Rhs>
+              </Row>
+            </Subcolumn>
+            <iText formula="Magick_annotate_item.action A1"/>
+          </Rhs>
+        </Row>
+      </Subcolumn>
+    </Column>
+  </Workspace>
+</root>
